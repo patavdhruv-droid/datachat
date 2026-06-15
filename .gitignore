@@ -1,0 +1,58 @@
+# ============================
+# DataChat - Git Ignore
+# Files/folders NEVER pushed to GitHub
+# ============================
+
+# Environment variables (CRITICAL - contains API keys!)
+.env
+*.env
+.env.local
+.env.production
+.env.development
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Node / React
+node_modules/
+build/
+dist/
+.next/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+backend/database/
+backend/uploads/
+backend/charts/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Misc
+.eslintcache
+*.tsbuildinfo
